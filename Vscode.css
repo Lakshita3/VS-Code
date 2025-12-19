@@ -1,0 +1,810 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    width: 100vw;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #0D1117;
+}
+
+.navbar ul {
+    width: 65vw;
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0D1117;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar span img {
+    /* position: relative; */
+    width: 40px;
+    height: 50px;
+    /* left: 15px; */
+    /* top: 15px;/ */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.vs {
+    font-family: "Roboto", sans-serif;
+    color: rgb(195, 208, 229);
+    font-size: 20px;
+    font-weight: 600;
+    width: 300px;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.items {
+    font-family: "Roboto", sans-serif;
+    color: rgb(195, 208, 229);
+    line-height: 58px;
+    font-size: 1em;
+
+}
+
+.bright {
+    color: rgb(155, 163, 180);
+    margin-left: 25px;
+    display: flex;
+    align-items: flex-end;
+    width: 2vw;
+}
+
+.sidebar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 35vw;
+}
+
+.search {
+    display: flex;
+    /* justify-content: space-between;       */
+    /* align-items: center; */
+    height: 30px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 2px rgb(177, 177, 177);
+}
+
+.search input {
+    border: 2px rgb(177, 177, 177);
+    background-color: black;
+    color: rgb(155, 163, 180);
+    padding-left: 5px;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+.srch {
+    font-family: "Roboto", sans-serif;
+    color: rgb(155, 163, 180);
+
+}
+
+.dwn {
+    font-family: "Roboto", sans-serif;
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+    background-color: #439eed;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 500;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.msg {
+    font-family: "Roboto", sans-serif;
+    border-top: 1px white;
+    border-bottom: 1px white;
+    background-color: rgb(7, 10, 44);
+    color: rgb(159, 177, 209);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.msg a {
+    color: #4daafc;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.hero-back {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: url("homage22.png");
+    z-index: -1;
+    opacity: 1;
+    height: 800px;
+    background-color: black;
+    /* flex-direction: column; */
+}
+
+.hero-content h1 {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(230, 238, 250);
+    font-size: 74px;
+    line-height: 89px;
+    font-weight: 700;
+    width: 40vw;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 320px;
+}
+
+.hero-content .box {
+
+    width: 25vw;
+    height: 175px;
+    margin-top: 20px;
+    margin-left: 450px;
+    background: linear-gradient(120deg, rgb(40, 36, 36), rgb(8, 8, 15), rgb(16, 24, 16), black);
+    ;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box .inside-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 238, 250);
+    width: 250px;
+    border-radius: 8px;
+    height: 40px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    border: 2px solid black;
+}
+
+.inside-box img {
+    height: 25px;
+}
+
+.inside-box2 {
+    padding-top: 10px;
+}
+
+.inside-box2 a {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(230, 238, 250);
+}
+
+.inside-box3 {
+    padding-top: 15px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(230, 238, 250);
+}
+
+.inside-box3 a {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(230, 238, 250);
+}
+
+.hero-content2 {
+    margin-top: 50px;
+    background: linear-gradient(120deg, rgb(105, 145, 159), rgb(32, 121, 211), rgb(27, 114, 227), rgb(16, 62, 181));
+    height: 800px;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content2 img {
+    width: 75vw;
+    height: 700px;
+}
+
+.hero-content3 {
+    width: 100vw;
+    height: 900vh;
+    background: linear-gradient(180deg, rgb(15, 25, 25), rgb(33, 33, 49), rgb(4, 5, 5), rgb(14, 20, 23));
+}
+
+.about-section {
+    padding-top: 600px;
+    display: flex;
+    height: auto;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* align-items: center; */
+
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 800px; */
+    padding: 20px;
+    background-color: rgb(30, 30, 32);
+    border: 1px solid gray;
+    color: white;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(195, 208, 229);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.explain {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    color: rgb(159, 177, 209);
+    margin-top: 10px;
+}
+
+.about1 img {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.ai {
+    margin: 100px;
+    width: 80vw;
+    display: inline-block;
+    height: 185px;
+    background: linear-gradient(120deg, rgb(63, 15, 63), rgb(120, 182, 120), rgb(87, 149, 106), rgb(37, 19, 96), rgb(50, 73, 83));
+    border-radius: 10px;
+}
+
+.ai h1 {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(230, 238, 250);
+    font-size: 30px;
+    display: flex;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    line-height: 45px;
+    /* margin-top: 35px; */
+    padding-top: 70px;
+    font-weight: 600;
+    display: inline;
+    /* margin-top: 80px; */
+}
+
+.ai span {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(230, 238, 250);
+    font-size: 16px;
+    line-height: 26px;
+    margin: 35px;
+    margin-left: 600px;
+    font-weight: 500;
+}
+
+.ai .btn {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    background-color: #1e2229;
+    border: 1px solid gray;
+    padding-left: 7px;
+    border-radius: 6px;
+    padding-top: 2px;
+    margin-top: 15px;
+    color: rgb(195, 208, 229);
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+}
+
+.about2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    margin-bottom: 200px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.content1 h1 {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(195, 208, 229);
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.content2 h1{
+     font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(195, 208, 229);
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.explain2 {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(159, 177, 209);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.content1 a {
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(77, 170, 252);
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.content2 a{
+     font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(77, 170, 252);
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.code {
+    margin-top: 50px;
+    background: linear-gradient(120deg, rgb(105, 145, 159), rgb(32, 121, 211), rgb(27, 114, 227), rgb(16, 62, 181));
+    height: 700px;
+    width: 60vw;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+.code img{
+      width: 55vw;
+    height: 600px;
+    border-radius: 5px;
+}
+.code1 img{
+    width: 57vw;
+    height: 400px;
+    /* margin-top: 50px; */
+    margin-right: 150px;
+    background: transparent;
+}
+.about3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 90vh;
+    width: 100vw;
+    /* margin-bottom: 50px; */
+}
+.content2 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.code2 img{
+    width: 44vw;
+    height: 400px;
+    /* margin-top: 40px; */
+    margin-right: 150px;
+    position: relative;
+    right: 100px;
+    bottom: 50px;
+    opacity: 1;
+}
+.code3 img{
+    width: 44vw;
+    height: 500px;
+    /* margin-top: 40px; */
+    margin-right: 150px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    bottom: 50px;
+    opacity: 1;
+}
+.about4{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 150px; */
+}
+.about4 .content2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    /* flex-direction: column; */
+    width: 100vw;
+    height: 15vh;
+    text-align: center;
+    margin-right: 150px;
+    /* margin-left: 100px; */
+    /* margin-top: 50px; */
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 100vw;
+    height: 40vh;
+    /* border: 2px solid grey; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 160px;
+    background-color: rgb(20, 19, 23);
+    padding: 25px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    margin: 20px;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    margin: 5px;
+}
+.card h1{
+    margin: 5px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(195, 208, 229);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.card span{
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(159, 177, 209);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 5px;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    /* display: inline; */
+    /* justify-content: space-evenly; */
+    width: 100vw;
+    height: 30vh;
+
+    background: linear-gradient(180deg, rgb(15, 25, 25), rgb(16, 16, 18), rgb(4, 5, 5), rgb(14, 20, 23));
+}
+.ul1{
+    margin-top: 50px;
+    width: 100vw;
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    margin-left: 70px;
+    /* margin-top: 50px; */
+}
+.ul1 li {
+    width: 40px;
+    height: 40px;
+}
+.foot .ul2{
+    width: 40vw;
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    margin-left: 50px;
+    /* margin-top: 50px; */
+}
+.foot .ul2 li{
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    color: rgb(159, 177, 209);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 15px;
+}
+.win{
+    padding-left: 950px ;
+}
+/* media query */
+@media screen and (max-width:1129px) {
+    .navbar{
+        height: 30vh;
+        flex-direction: column;
+    }
+    .navbar span img{
+        position: relative;
+        top: 15px;
+    }
+    .sidebar{
+        width: 40vw;
+    }
+    .about3{
+        height: auto;
+    }
+     .about-section{
+        display: flex;
+            flex-direction: column;
+            height: auto;
+            /* flex-direction: column; */
+            align-items: center;
+
+
+    }
+    .hero-content3{
+        height: 1150vw;
+    }
+    .about1{
+        /* padding-top: 20px; */
+        margin-top: 50px;
+    }
+    .about2{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }  
+    
+    .hero-content h1{
+        text-align: center;
+        font-size: 54px;
+        margin-left: 200px;
+
+    }  
+    
+.hero-content .box {
+
+    width: 35vw;
+    height: 175px;
+    margin-top: 20px;
+    margin-left: 250px;
+   
+}.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 500px;
+    margin-left:100px;
+    margin-right:100px ;
+}
+.about3{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+}
+.content2{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90vw;
+    height: 500px;
+    margin-left:100px;
+    margin-right:100px ;
+}
+.code1 img{
+    height: 500px;
+    margin-left: 150px;
+    width: 800px;
+}
+.code2 img{
+    height: 500px;
+    margin-left: 270px;
+    width: 800px;
+}
+.code3 img{
+     height: 500px;
+    margin-left: 270px;
+    width: 800px;
+}
+
+}
+@media screen and (max-width:1025px) {
+    .navbar{
+        height: 40vh;
+    }
+    .ai span{
+        position: relative;
+        bottom: 40px;
+        width: 25%;
+        margin-right: 15px;
+        font-size: 12px;
+        /* text-overflow:clip; */
+    }
+    .ai .btn{
+        font-size: 14px;
+        width: 80px;
+    }
+    .card{
+        margin: 40px;
+    }
+    .code3 img{
+        top:1px
+    }
+}
+@media screen and (max-width:950px) 
+{
+.box{
+    width: 50vw;
+}
+
+.inside-box3 a {
+     padding-left: 15px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(230, 238, 250);
+}  
+  .hero-content3{
+        height: 1250vw;
+    }
+    .ai span{
+        width: 25%;
+        margin-right: 15px;
+        font-size: 10px;
+        text-overflow:clip;
+    }
+    .ai{
+        margin-right: 150px;
+        margin: 40px;
+        width: 90vw;
+        height: 30vh;
+
+    }
+}
+@media screen and(width:854px){
+    .ai span{
+        /* width 50%; */
+        /* height: 10%; */
+        height: 50px;
+    }
+      .hero-content3{
+        height: 1550vw;
+    }
+}
+@media screen and (width:413px) {
+        .navbar{
+        height: 40vh;
+        overflow: hidden;
+        width: 100%;
+    }
+    .ai span{
+        position: relative;
+        bottom: 40px;
+        width: 25%;
+        margin-right: 15px;
+        font-size: 12px;
+        /* text-overflow:clip; */
+    }
+    .ai .btn{
+        font-size: 14px;
+        width: 80px;
+    }
+    .card{
+        margin: 40px;
+    }
+    .code3 img{
+        top:1px
+    }
+
+    .hero-content h1 {
+        width: 80%;
+        text-align: center;
+        font-size: 54px;
+        margin-left: 30px
+    }
+.box{
+    width: 80vw;
+    height: 195px;
+}
+.hero-content2{
+    width: 80vw;
+    height: 450px;
+    position: relative;
+    left: 30px;
+}
+.hero-content2 img{
+    width: 300px;
+    height: 350px;
+}
+.code{
+    width: 70vw;
+    height: 400px;
+    position: relative;
+    left: 25px;
+}
+.code img{
+    width: 60vw;
+    height: 350px;
+}
+.code1 img{
+    width: 65vw;
+    height: 300px;
+    /* margin-right: 50px;     */
+}
+.code2 img{
+    width: 65vw;
+    height: 300px;
+    display: flex;
+    align-items: center;
+} i
+.inside-box3 a {
+     padding-left: 5px;
+    font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: rgb(230, 238, 250);
+}  
+  .hero-content3{
+    width: 100vw;
+        height: 2550vw;
+    }
+    .ai span{
+        width: 25%;
+        margin-right: 15px;
+        font-size: 10px;
+        text-overflow:clip;
+    }
+    .ai{
+        margin-right: 15px;
+        margin: 10px;
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+        flex-direction: row;
+    }
+}
